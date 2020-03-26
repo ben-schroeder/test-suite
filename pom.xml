@@ -13,12 +13,13 @@
     <packaging>pom</packaging>
 
     <name>test-suite-parent</name>
-    <description>Parent POM for test-suite</description>
+    <description>Parent POM for test-suite modules</description>
     <url>https://github.com/ben-schroeder/test-suite</url>
 
     <modules>
         <module>test-suite-junit4</module>
         <module>test-suite-junit5</module>
+        <module>test-suite-testng</module>
     </modules>
 
     <scm>

@@ -8,21 +8,21 @@
         <version>0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>test-suite-junit4</artifactId>
+    <artifactId>test-suite-testng</artifactId>
     <packaging>jar</packaging>
 
-    <name>test-suite-junit4</name>
-    <description>Opinionated test-suite for writing tests with JUnit 4</description>
+    <name>test-suite-testng</name>
+    <description>Opinionated test-suite for writing tests with TestNG</description>
 
     <properties>
-        <junit.version>4.12</junit.version>
+        <testng.version>7.1.0</testng.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
         </dependency>
     </dependencies>
 </project>
