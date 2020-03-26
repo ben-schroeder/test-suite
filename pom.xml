@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>eu.benschroeder</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>1</version>
+    </parent>
+
+    <artifactId>test-suite-parent</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>test-suite-parent</name>
+    <description>Parent POM for test-suite modules</description>
+    <url>https://github.com/ben-schroeder/test-suite</url>
+
+    <modules>
+        <module>test-suite-junit4</module>
+        <module>test-suite-junit5</module>
+        <module>test-suite-testng</module>
+    </modules>
+
+    <scm>
+        <connection>scm:git:git://github.com/ben-schroeder/test-suite.git</connection>
+        <developerConnection>scm:git:ssh://github.com:ben-schroeder/test-suite.git</developerConnection>
+        <url>https://github.com/ben-schroeder/test-suite</url>
+    </scm>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <mockito.version>3.3.3</mockito.version>
+        <assertj.version>3.15.0</assertj.version>
+        <random-test-data.version>0.5</random-test-data.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>eu.benschroeder</groupId>
+            <artifactId>mockito-extension</artifactId>
+            <version>${mockito.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.benschroeder</groupId>
+            <artifactId>assertj-extension</artifactId>
+            <version>${assertj.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.benschroeder</groupId>
+            <artifactId>random-test-data</artifactId>
+            <version>${random-test-data.version}</version>
+        </dependency>
+    </dependencies>
+</project>
