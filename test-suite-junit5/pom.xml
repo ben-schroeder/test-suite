@@ -30,5 +30,4 @@
             <version>${mockito.version}</version>
         </dependency>
     </dependencies>
-
 </project>
