@@ -1,12 +1,12 @@
 # test-suite
 [![Build Status](https://travis-ci.com/ben-schroeder/test-suite.svg?branch=master)](https://travis-ci.com/ben-schroeder/test-suite)
 [![License](https://img.shields.io/github/license/ben-schroeder/test-suite)](https://raw.githubusercontent.com/ben-schroeder/test-suite/master/LICENSE)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/eu.benschroeder/test-suite/badge.svg)](https://maven-badges.herokuapp.com/maven-central/eu.benschroeder/test-suite)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/eu.benschroeder/test-suite-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/eu.benschroeder/test-suite-parent)
 
-Opinionated package of testing tools. 
+Opinionated package of testing tools.
 
 Combines one of
-* [junit5](https://github.com/junit-team/junit5) 
+* [junit5](https://github.com/junit-team/junit5)
 * [junit4](https://github.com/junit-team/junit4)
 * [testng](https://github.com/cbeust/testng)
 
@@ -47,7 +47,7 @@ with all of
 </dependency>
 ```
 
-## Usage 
+## Usage
 ### Junit5
 ```
 import eu.benschroeder.test.junit5.UnitTest;
@@ -59,7 +59,7 @@ import org.mockito.InjectMocks;
 
 // No @ExtendWith(MockitoExtension.class) needed
 public class MyServiceTest extends UnitTest {
-    
+
     @InjectMocks
     private MyService myService;
 
@@ -73,14 +73,14 @@ public class MyServiceTest extends UnitTest {
         final long anyId = randomLong();
         final String anyName = randomAlphabetic();
         final LocalDateTime anyLocalDateTime = randomPastLocalDateTime();
-        
+
         ...
-        
+
         // Use BDDMockito/Mockito without static imports        
         given(myMockedService.method()).willReturn(anyName);
 
         ...
-        
+
         // Use AssertJ without static imports
         assertThat("string").isNotNull();
 
@@ -88,6 +88,3 @@ public class MyServiceTest extends UnitTest {
 
 }
 ```
-
-
-
