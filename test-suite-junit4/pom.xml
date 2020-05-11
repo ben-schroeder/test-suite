@@ -15,7 +15,7 @@
     <description>Opinionated test-suite for writing tests with JUnit 4</description>
 
     <properties>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13</junit.version>
     </properties>
 
     <dependencies>
