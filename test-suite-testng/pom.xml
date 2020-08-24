@@ -5,7 +5,7 @@
     <parent>
         <groupId>eu.benschroeder</groupId>
         <artifactId>test-suite-parent</artifactId>
-        <version>0.3-SNAPSHOT</version>
+        <version>0.4-SNAPSHOT</version>
     </parent>
 
     <artifactId>test-suite-testng</artifactId>
@@ -15,7 +15,7 @@
     <description>Opinionated test-suite for writing tests with TestNG</description>
 
     <properties>
-        <testng.version>7.1.0</testng.version>
+        <testng.version>7.3.0</testng.version>
     </properties>
 
     <dependencies>
