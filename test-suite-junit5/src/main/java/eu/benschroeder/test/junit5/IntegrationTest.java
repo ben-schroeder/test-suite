@@ -8,12 +8,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 /**
- * Base class for unit tests with Junit5, BDDMockito and AssertJ.
+ * Base class for integration tests with Junit5, BDDMockito and AssertJ.
  *
  * @author Benjamin Schröder
  */
-@Tag("UnitTest")
+@Tag("IntegrationTest")
 @ExtendWith(MockitoExtension.class)
-public class UnitTest implements WithRandomTestData, WithBDDMockito, WithAssertJForMockito {
+public class IntegrationTest implements WithRandomTestData, WithBDDMockito, WithAssertJForMockito {
     // empty
 }
