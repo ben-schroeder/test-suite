@@ -8,12 +8,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 /**
- * Base class for unit tests with TestNG, BDDMockito and AssertJ.
+ * Base class for integration tests with TestNG, BDDMockito and AssertJ.
  *
  * @author Benjamin Schröder
  */
-@Test(groups = "UnitTest")
-public class UnitTest implements WithRandomTestData, WithBDDMockito, WithAssertJForMockito {
+@Test(groups = "IntegrationTest")
+public class IntegrationTest implements WithRandomTestData, WithBDDMockito, WithAssertJForMockito {
 
     @BeforeMethod(alwaysRun=true)
     public void initMockito() {

@@ -8,12 +8,12 @@ import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 
 /**
- * Base class for unit tests with Junit4, BDDMockito and AssertJ.
+ * Base class for integration tests with Junit4, BDDMockito and AssertJ.
  *
  * @author Benjamin Schröder
  */
 @RunWith(MockitoJUnitRunner.class)
-@Category(UnitTest.class)
-public class UnitTest implements WithRandomTestData, WithBDDMockito, WithAssertJForMockito {
+@Category(IntegrationTest.class)
+public class IntegrationTest implements WithRandomTestData, WithBDDMockito, WithAssertJForMockito {
 
 }
