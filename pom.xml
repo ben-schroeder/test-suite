@@ -32,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <mockito.version>3.6.28</mockito.version>
+        <mockito.version>3.7.0</mockito.version>
         <assertj.version>3.18.1</assertj.version>
         <random-test-data.version>0.7</random-test-data.version>
     </properties>
