@@ -27,7 +27,7 @@ with all of
 <dependency>
   <groupId>eu.benschroeder</groupId>
   <artifactId>test-suite-junit5</artifactId>
-  <version>0.6</version>
+  <version>0.7</version>
 </dependency>
 ```
 ### Junit4
@@ -35,7 +35,7 @@ with all of
 <dependency>
   <groupId>eu.benschroeder</groupId>
   <artifactId>test-suite-junit4</artifactId>
-  <version>0.6</version>
+  <version>0.7</version>
 </dependency>
 ```
 ### TestNG
@@ -43,7 +43,7 @@ with all of
 <dependency>
   <groupId>eu.benschroeder</groupId>
   <artifactId>test-suite-testng</artifactId>
-  <version>0.6</version>
+  <version>0.7</version>
 </dependency>
 ```
 
