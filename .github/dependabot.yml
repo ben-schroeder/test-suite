@@ -1,0 +1,31 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 99
+  target-branch: develop
+  ignore:
+  - dependency-name: org.mockito:mockito-junit-jupiter
+    versions:
+    - 3.7.0
+    - 3.7.7
+    - 3.8.0
+    - 3.9.0
+  - dependency-name: eu.benschroeder:mockito-extension
+    versions:
+    - 3.7.0
+    - 3.7.7
+    - 3.8.0
+    - 3.9.0
+  - dependency-name: org.testng:testng
+    versions:
+    - 7.4.0
+  - dependency-name: org.junit.jupiter:junit-jupiter
+    versions:
+    - 5.7.1
+  - dependency-name: eu.benschroeder:assertj-extension
+    versions:
+    - 3.19.0
