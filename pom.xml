@@ -5,11 +5,11 @@
     <parent>
         <groupId>eu.benschroeder</groupId>
         <artifactId>oss-parent</artifactId>
-        <version>4</version>
+        <version>8</version>
     </parent>
 
     <artifactId>test-suite-parent</artifactId>
-    <version>0.8-SNAPSHOT</version>
+    <version>0.9-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>test-suite-parent</name>
@@ -30,10 +30,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <mockito.version>3.11.2</mockito.version>
-        <assertj.version>3.20.2</assertj.version>
+        <mockito.version>5.14.2</mockito.version>
+        <assertj.version>3.26.3</assertj.version>
         <random-test-data.version>0.8</random-test-data.version>
     </properties>
 
