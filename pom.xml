@@ -32,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mockito.version>5.14.2</mockito.version>
         <assertj.version>3.26.3</assertj.version>
-        <random-test-data.version>0.8</random-test-data.version>
+        <random-test-data.version>0.9</random-test-data.version>
     </properties>
 
     <dependencies>
